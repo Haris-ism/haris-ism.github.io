@@ -1218,12 +1218,15 @@ section{
     justify-content: center;
   }
 }
+#navbarNav{
+  background-color: crimson;
+  position: relative;
+}
 #navhome svg{
   /* display:inline; */
 }
 #navbarNav ul{
   position:relative;
-  width:100%;
   display:flex;
   justify-content: end;
 }
@@ -1299,7 +1302,7 @@ section{
   padding:5px 10px 5px 10px;
   text-align: center;
   position:absolute;
-  right:-50px;
+  right:30px;
   top:40px;
   background-color: #4fa5d6;
   border-radius: 30px;
@@ -1317,7 +1320,7 @@ section{
   padding:5px 10px 5px 10px;
   text-align: center;
   position:absolute;
-  right:-50px;
+  right:30px;
   top:40px;
   background-color: #4fa5d6;
   border-radius: 30px;
@@ -1335,7 +1338,7 @@ section{
   padding:5px 10px 5px 10px;
   text-align: center;
   position:absolute;
-  right:-95px;
+  right:25px;
   top:40px;
   background-color: #4fa5d6;
   border-radius: 30px;
@@ -1353,7 +1356,7 @@ section{
   padding:5px 10px 5px 10px;
   text-align: center;
   position:absolute;
-  right:-50px;
+  right:30px;
   top:40px;
   background-color: #4fa5d6;
   border-radius: 30px;
