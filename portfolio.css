@@ -232,50 +232,6 @@ body{
   height:4rem;
   display:inline;
 }
-/* #qualificationParent{
-
-  margin:auto auto;
-  margin-top: 50px;
-  width:80vw;
-  height:700px;
-  background-color: rgba(255,255,255,0.1);
-  border-radius: 30px;
-  box-shadow:10px 10px 10px rgba(0,0,0,0.5);
-  border-top:1px solid rgba(255,255,255,0.5);
-  border-left:1px solid rgba(255,255,255,0.5);
-  z-index: 2;
-  position:relative;
-}
-#SkillsContainer{
-  margin-top: 50px;
-  display:grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  padding-left: 100px;
-} */
-
-/* .profileinner{
-  position:absolute;
-  width:310px;
-  height:310px;
-  border-radius: 50%;
-  border: solid transparent;
-  top:50%;
-  left:50%;
-  transform: translate(-50% ,-50%);
-  box-shadow:
-  -1px -1px 5px rgba(255,255,255,0.2),
-  3px 3px 5px rgba(0,0,0,0.3);
-} */
-
-
-/* #aboutdetail ul li:nth-child(1){
-  width:150px;
-  height:50px;
-}
-#aboutdetail ul li:nth-child(2){
-  bottom:100%; */
-}
 #Skills{
   width:200px;
 }
@@ -377,8 +333,6 @@ li img{
   left:57%;
 }
 #item1:hover{
-  top:0;
-  left:0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -390,8 +344,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  bottom:0;
-  left:0;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -399,8 +351,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:30%;
-  left:19%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -408,8 +358,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:0;
-  left:38%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -417,8 +365,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  bottom:0;
-  left:38%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -426,8 +372,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:30%;
-  left:57%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -435,8 +379,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:0;
-  left:76%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -444,8 +386,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  bottom:0;
-  left:76%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -453,8 +393,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:90%;
-  left:19%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -462,8 +400,6 @@ li img{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  top:90%;
-  left:57%;
   transform: scale(1.2) rotate(45deg);
   z-index: 3;
 }
@@ -869,8 +805,24 @@ li img{
   right:20px;
   cursor: pointer;
 }
-a:link, a:visited{
+a:link{
+  color:inherit;
   text-decoration: none;
+}
+a:visited{
+  color:inherit;
+  text-decoration: none;
+}
+a:hover{
+  color:inherit;
+  text-decoration: none;
+}
+a:active{
+  color:inherit;
+  text-decoration: none;
+}
+#qualification input{
+  background-color: coral;
 }
 #projecttitle{
   color:rgba(163, 161, 153,1);
@@ -953,61 +905,15 @@ a:link, a:visited{
   border:solid;
 
 }
-/* #neon span:nth-child(1){
-  top:0;
-  left:-100%;
-  width:100%;
-  height:2px;
-  background: linear-gradient(90deg,transparent,#64e8b1);
-}
-#neon span:nth-child(2){
-  top:-100%;
-  right:0%;
-  width:2px;
-  height:100%;
-  background: linear-gradient(180deg,transparent,#64e8b1);
-}
-#neon span:nth-child(3){
-  bottom:0;
-  right:-100%;
-  width:100%;
-  height:2px;
-  background: linear-gradient(270deg,transparent,#64e8b1);
-}
-#neon span:nth-child(4){
-  top:100%;
-  left:0;
-  width:2px;
-  height:100%;
-  background: linear-gradient(360deg,transparent,#64e8b1);
-}
-#neon:hover span:nth-child(1){
-  left:100%;
-  transition-duration: 1s;
-}
-#neon:hover span:nth-child(2){
-  top:100%;
-  transition-duration: 1s;
-  transition-delay: 0.25s;
-}
-#neon:hover span:nth-child(3){
-  right:100%;
-  transition-duration: 1s;
-  transition-delay: 0.5s;
-}
-#neon:hover span:nth-child(4){
-  top:-100%;
-  transition-duration: 1s;
-  transition-delay: 0.75s;
-} */
+
 #aboutdetail{
   position: relative;
 }
 
 #iconcontainer a{
-  display: inline-block;
+  width:80px;
+  display: block;
   margin-right: 20px;
-
 }
 .abouticon{
   cursor: pointer;
@@ -1099,7 +1005,6 @@ a:link, a:visited{
   margin-top: 50px;
 }
 .aboutbtn{
-  text-decoration: none;
   text-align: center;
   width:200px;
   padding:10px 25px;
@@ -1167,11 +1072,19 @@ a:link, a:visited{
   border-radius: 50%;
   background-color: transparent;
   box-shadow:
-  inset -2px -2px 2px rgba(255,255,255,0.2),
-  inset -2px -2px 3px rgba(255,255,255,0.2),
-  2px 2px 2px rgba(255,255,255,0.1),
-  inset 2px 2px 4px rgba(0,0,0,0.15),
-  inset 2px 2px 8px rgba(0,0,0,0.15);
+  inset -1px -1px 5px rgba(255,255,255,0.2),
+  inset 3px 3px 5px rgba(0,0,0,0.3);
+}
+.offericon div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow:
+  -1px -1px 5px rgba(255,255,255,0.2),
+  3px 3px 5px rgba(0,0,0,0.3);
 }
 section{
   margin:0;
@@ -1218,8 +1131,42 @@ section{
     justify-content: center;
   }
 }
+@media (max-width:768px) {
+  #SkillsDetail ul{
+    margin-bottom: 320px;
+  }
+  #item1{
+    top:120%;
+    left:38%;
+  }
+  #item2{
+    top:90%;
+    left:19%;
+  }
+  #item3{
+    top:30%;
+    left:19%;
+  }
+  #item4{
+    top:0;
+    left:38%;
+  }
+  #item8{
+    top:60%;
+    left:38%;
+  }
+  #item6{
+    top:30%;
+    left:57%;
+  }
+  #item7{
+    top:90%;
+    left:57%;
+  }
+
+
+}
 #navbarNav{
-  background-color: crimson;
   position: relative;
 }
 #navhome svg{
@@ -1241,15 +1188,18 @@ section{
   background-color: transparent;
   transition: all 0.3s ease-out;
   box-shadow:
-  -2px -2px 2px rgba(255,255,255,0.2),
-  -2px -2px 3px rgba(255,255,255,0.2),
-  inset 2px 2px 2px rgba(255,255,255,0.1),
-  2px 2px 4px rgba(0,0,0,0.15),
-  2px 2px 8px rgba(0,0,0,0.15);
+  inset -1px -1px 5px rgba(255,255,255,0.2),
+  inset 3px 3px 5px rgba(0,0,0,0.3);
 }
 #navbarNav ul li:hover{
   background-color: #4fa5d6;
   box-shadow: none;
+}
+#navbarNav ul li a{
+  border-radius: 50%;
+  box-shadow:
+  -1px -1px 5px rgba(255,255,255,0.2),
+  3px 3px 5px rgba(0,0,0,0.3);
 }
 .liquid:hover .text{
   width:100px;
@@ -1274,7 +1224,8 @@ section{
   transform:translateX(-13px) translateY(13px)rotate(-45deg);
 }
 .skillswrap{
-  padding:5px;
+  background-color: transparent;
+  padding:8px;
   border-radius: 50%;
   transition: all 0.3s ease-out;
 }
