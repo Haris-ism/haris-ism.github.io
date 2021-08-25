@@ -16,7 +16,6 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul id="navicon" class="navbar-nav ms-auto">
             <div class="liquid">
@@ -29,7 +28,6 @@
                 </a>
                 <div class="home">Home</div>
             </li>
-
             <li id="navabout" class="nav-item mx-3">
                 <a class="nav-link active" href="#about">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
@@ -38,7 +36,6 @@
                 </a>
                 <div class="about">About</div>
             </li>
-
             <li id="navQ" class="nav-item mx-3">
                 <a class="nav-link active" href="#qualification">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-code-slash" viewBox="0 0 16 16">
@@ -47,7 +44,6 @@
                 </a>
                 <div class="qualification">Qualification</div>
             </li>
-
             <li id="navP" class="nav-item mx-3">
                 <a class="nav-link active" href="#project">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
@@ -57,13 +53,79 @@
                 </a>
                 <div class="project">Project</div>
             </li>
-
             </div>
           </ul>
         </div>
       </div>
     </nav>
-
+    <div id="mobilebtn">
+      <div id="hamburger">
+        <div class="innerbox" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div class="outerbox">
+                    <div class="innerbox">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-house-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  Home
+                </a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link active" href="#about">
+                  <div class="outerbox">
+                    <div class="innerbox">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  About
+                </a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link active" href="#qualification">
+                  <div class="outerbox">
+                    <div class="innerbox">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-code-slash" viewBox="0 0 16 16">
+                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  Qualification
+                </a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link active" href="#project">
+                  <div class="outerbox">
+                    <div class="innerbox">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#363533" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+                        <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                        <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                      </svg>
+                    </div>
+                  </div>
+                  Project
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <section id="home">
       <div class="homeicon">
         <div class="square"></div>
@@ -82,7 +144,7 @@
       </div>
       <div id="homeContainer"class="container">
         <div class="row flex-lg-row-reverse align-items-end justify-content-between">
-          <div class="col-sm-12 col-lg-6 ">
+          <div class="col-12 col-lg-6">
             <div id="tiltcontainer" >
               <div data-tilt data-tilt-reverse="true">
                 <div id="tilts">
@@ -91,105 +153,110 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-auto">
-            <p style="color:rgba(163, 161, 153,1)">Hello I'm</p>
-            <h1 class="display-5 fw-bold lh-1 mb-3"><span id="H">Haris</span></h1>
-            <h1 style="color:rgba(120, 118, 111,1)">Front End Developer</h1>
+          <div class="col-lg-auto d-flex justify-content-center justify-content-lg-start">
             <div>
-              <a href="#about">
-                <div class="homebtn">
-                  About Me
-                </div>
-              </a>
-              <a href="#project">
-                <div class="homebtn">
-                  Project
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8efff" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,202.7C672,224,768,192,864,160C960,128,1056,96,1152,96C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-    <section id="about">
-      <div class="container text-center">
-        <h1>About</h1>
-        <div class="row justify-content-center gx-5 mt-5">
-          <div id="profilecontainer"class="col-xl-4 d-flex justify-content-center mb-5">
-            <div class="profileouter">
-              <div class="profileinner">
-                <img id="profile"class="rounded-circle"src="profile.png"/>
-              </div>
-            </div>
-          </div>
-          <div id="aboutdetail"class="col-xl-7 px-5">
-            <div class="row">
-              <div class="col-xl-9 mt-4 " >
-                Hi! My name is Haris, a front-end developer based in Cikarang, Indonesia.
-                I love learning new things and solving problem to it's root and understanding the overall concept.
-                I am passionate about developing responsive web app and aiming for the best user experience.
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-12 text-start d-flex justify-content-xl-start justify-content-center">
-                <a href="Certification.pdf" target="_blank">
-                  <div class="aboutbtn">
-                    <img src="https://img.icons8.com/material-two-tone/24/000000/download--v1.png"/>Download CV
+              <p style="color:rgba(163, 161, 153,1)">Hello I'm</p>
+              <h1 class="display-5 fw-bold lh-1 mb-3"><span id="H">Haris</span></h1>
+              <h1 style="color:rgba(120, 118, 111,1)">Front End Developer</h1>
+              <div>
+                <a href="#about" >
+                  <div class="homebtn">
+                    About Me
+                  </div>
+                </a>
+                <a href="#project" id="homeprojectbtn">
+                  <div class="homebtn">
+                    Project
                   </div>
                 </a>
               </div>
             </div>
-            <div class="row">
-              <div id="iconcontainer" class="col d-flex flex-wrap justify-content-center justify-content-xl-start">
-                <a href="https://github.com/Haris-ism" target="_blank" >
-                <div class="abouticon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                  </svg>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e0e0e0" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,202.7C672,224,768,192,864,160C960,128,1056,96,1152,96C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <section id="about">
+      <div class="container text-center">
+        <h1>About</h1>
+        <div class="container">
+          <div class="row justify-content-center gx-5 mt-5">
+            <div id="profilecontainer"class="col-xl-4 d-flex justify-content-center mb-5">
+              <div class="profileouter">
+                <div class="profileinner">
+                  <img id="profile"class="rounded-circle"src="profile.png"/>
                 </div>
-                </a>
-                <a href="https://www.linkedin.com/in/m-amin-haris-7356b615b/" target="_blank" >
-                <div class="abouticon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
+              </div>
+            </div>
+            <div id="aboutdetail"class="col-xl-7 px-5">
+              <div class="row">
+                <div class="col-xl-9 mt-4 " >
+                  Hi! My name is Haris, a front-end developer based in Cikarang, Indonesia.
+                  I love learning new things and solving problem to it's root and understanding the overall concept.
+                  I am passionate about developing responsive web app and aiming for the best user experience.
                 </div>
-                </a>
-                <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="amin.haris3323@gmail.com">
-                <div class="abouticon">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="#363533"  width="40px" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12 text-start d-flex justify-content-xl-start justify-content-center">
+                  <a href="CV M Amin Haris.pdf" target="_blank">
+                    <div class="aboutbtn">
+                      <img src="https://img.icons8.com/material-two-tone/24/000000/download--v1.png"/>Download CV
+                    </div>
+                  </a>
                 </div>
-                </a>
-                <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="+6285314816356">
-                <div class="abouticon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                  </svg>
+              </div>
+              <div class="row">
+                <div id="iconcontainer" class="col d-flex flex-wrap justify-content-center justify-content-xl-start">
+                  <a href="https://github.com/Haris-ism" target="_blank" >
+                  <div class="abouticon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/m-amin-haris-7356b615b/" target="_blank" >
+                  <div class="abouticon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                  </div>
+                  </a>
+                  <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="amin.haris3323@gmail.com">
+                  <div class="abouticon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#363533"  width="40px" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+                  </div>
+                  </a>
+                  <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="+6285314816356">
+                  <div class="abouticon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg>
+                  </div>
+                  </a>
+                  <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Perumahan Taman Lembah Hijau No.72 Cikarang Selatan, Indonesia">
+                  <div class="abouticon" >
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" viewBox="0 0 512 512">
+                      <path class="cls-1" d="M485.86,128.82,458.47,121C454.82,53.66,398.9,0,330.67,0S206.51,53.66,202.86,121l-21.53,6.15-143.47-41a21.33,21.33,0,0,0-27.2,20.51V448a21.33,21.33,0,0,0,15.47,20.51l149.33,42.67.43.11.66.16,1,.2.63.11c.35.05.71.09,1.06.13l.54.06c.53,0,1.07.06,1.6.06h0c.53,0,1.07,0,1.6-.06l.54-.06c.35,0,.71-.07,1.06-.13l.63-.11,1-.19.66-.16.42-.11,143.47-41,143.47,41a21.34,21.34,0,0,0,27.2-20.51V149.33A21.33,21.33,0,0,0,485.86,128.82ZM330.67,42.67C376.93,42.67,416,81.74,416,128c0,34.74-47.9,88.48-85.33,121.45-37.44-33-85.33-86.71-85.33-121.45C245.33,81.74,284.41,42.67,330.67,42.67ZM53.33,134.95,160,165.43v297L53.33,431.91Zm149.33,30.48,7.18-2.05c20.14,53,77.19,105.06,99.49,124V431.91L202.67,462.39Zm256,297L352,431.91V287.37c22.3-18.93,79.35-71,99.49-124l7.18,2.05Z"/>
+                      <circle class="cls-1" cx="330.67" cy="128" r="21.33"/>
+                    </svg>
+                  </div>
+                  </a>
                 </div>
-                </a>
-                <a  data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Perumahan Taman Lembah Hijau No.72 Cikarang Selatan, Indonesia">
-                <div class="abouticon" >
-                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="40px" fill="#363533" viewBox="0 0 512 512">
-                    <path class="cls-1" d="M485.86,128.82,458.47,121C454.82,53.66,398.9,0,330.67,0S206.51,53.66,202.86,121l-21.53,6.15-143.47-41a21.33,21.33,0,0,0-27.2,20.51V448a21.33,21.33,0,0,0,15.47,20.51l149.33,42.67.43.11.66.16,1,.2.63.11c.35.05.71.09,1.06.13l.54.06c.53,0,1.07.06,1.6.06h0c.53,0,1.07,0,1.6-.06l.54-.06c.35,0,.71-.07,1.06-.13l.63-.11,1-.19.66-.16.42-.11,143.47-41,143.47,41a21.34,21.34,0,0,0,27.2-20.51V149.33A21.33,21.33,0,0,0,485.86,128.82ZM330.67,42.67C376.93,42.67,416,81.74,416,128c0,34.74-47.9,88.48-85.33,121.45-37.44-33-85.33-86.71-85.33-121.45C245.33,81.74,284.41,42.67,330.67,42.67ZM53.33,134.95,160,165.43v297L53.33,431.91Zm149.33,30.48,7.18-2.05c20.14,53,77.19,105.06,99.49,124V431.91L202.67,462.39Zm256,297L352,431.91V287.37c22.3-18.93,79.35-71,99.49-124l7.18,2.05Z"/>
-                    <circle class="cls-1" cx="330.67" cy="128" r="21.33"/>
-                  </svg>
-                </div>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8efff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,234.7C384,245,480,203,576,170.7C672,139,768,117,864,138.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e0e0e0" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,234.7C384,245,480,203,576,170.7C672,139,768,117,864,138.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <section id="qualification">
       <div class="text-center" >
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-          <label class="btn btn-outline-primary" for="btnradio1">Services</label>
+          <label class="btn btn-outline-secondary" for="btnradio1">Services</label>
           <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-          <label class="btn btn-outline-primary" for="btnradio2">Skills</label>
+          <label class="btn btn-outline-secondary" for="btnradio2">Skills</label>
         </div>
       </div>
       <div id="qualificationParent" >
@@ -407,7 +474,7 @@
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8efff" fill-opacity="1" d="M0,128L48,160C96,192,192,256,288,240C384,224,480,128,576,112C672,96,768,160,864,176C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e0e0e0" fill-opacity="1" d="M0,128L48,160C96,192,192,256,288,240C384,224,480,128,576,112C672,96,768,160,864,176C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
     <section id="project">
       <div class="container text-center ">
         <h1>Project</h1>
@@ -448,15 +515,11 @@
                   <a href="https://haris-ism.netlify.app/" target="_blank" id="visit">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 24 24"><path fill="#363533" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.016 11c-.048-1.03-.168-2.035-.356-3h3.5c.41.935.685 1.942.79 3h-3.934zm3.933 2c-.105 1.058-.38 2.065-.79 3h-3.5c.188-.965.309-1.97.356-3h3.934zm-1.968-7h-2.83c-.375-1.197-.875-2.292-1.461-3.286 1.716.684 3.195 1.831 4.291 3.286zm-4.948 0h-2.033v-3.674c.841 1.01 1.526 2.256 2.033 3.674zm-2.033 12h2.033c-.507 1.418-1.192 2.664-2.033 3.674v-3.674zm-2-15.674v3.674h-2.033c.507-1.418 1.192-2.664 2.033-3.674zm0 5.674v3h-2.994c.052-1.04.181-2.044.389-3h2.605zm0 5v3h-2.605c-.208-.956-.336-1.96-.389-3h2.994zm0 5v3.674c-.841-1.01-1.526-2.256-2.033-3.674h2.033zm2-2v-3h2.994c-.052 1.04-.181 2.044-.389 3h-2.605zm0-5v-3h2.605c.208.956.336 1.96.389 3h-2.994zm-4.69-8.286c-.586.994-1.086 2.089-1.461 3.286h-2.83c1.096-1.455 2.575-2.602 4.291-3.286zm-2.326 8.286h-3.933c.105-1.058.38-2.065.79-3h3.5c-.189.965-.309 1.97-.357 3zm.357 5h-3.5c-.41-.935-.685-1.942-.79-3h3.934c.047 1.03.167 2.035.356 3zm-2.322 2h2.83c.375 1.197.875 2.292 1.461 3.286-1.716-.684-3.195-1.831-4.291-3.286zm11.671 3.286c.586-.994 1.086-2.089 1.461-3.286h2.83c-1.096 1.455-2.575 2.602-4.291 3.286z"/></svg>
                   </a>
-                  <a id="preview">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30px" viewBox="0 0 24 24"><path fill="#363533" d="M12.015 7c4.751 0 8.063 3.012 9.504 4.636-1.401 1.837-4.713 5.364-9.504 5.364-4.42 0-7.93-3.536-9.478-5.407 1.493-1.647 4.817-4.593 9.478-4.593zm0-2c-7.569 0-12.015 6.551-12.015 6.551s4.835 7.449 12.015 7.449c7.733 0 11.985-7.449 11.985-7.449s-4.291-6.551-11.985-6.551zm-.015 3c-2.21 0-4 1.791-4 4s1.79 4 4 4c2.209 0 4-1.791 4-4s-1.791-4-4-4zm-.004 3.999c-.564.564-1.479.564-2.044 0s-.565-1.48 0-2.044c.564-.564 1.479-.564 2.044 0s.565 1.479 0 2.044z"/></svg>
-                  </a>
                 </div>
               </div>
             </div>
       </div>
-
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0px">
         <defs>
           <filter id="goo">
             <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
@@ -466,7 +529,7 @@
         </defs>
       </svg>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8efff" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,186.7C384,160,480,128,576,144C672,160,768,224,864,218.7C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e6e6e6" fill-opacity="1" d="M0,256L48,245.3C96,235,192,213,288,186.7C384,160,480,128,576,144C672,160,768,224,864,218.7C960,213,1056,139,1152,128C1248,117,1344,171,1392,197.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     <script>
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
@@ -487,9 +550,18 @@
         scrollTrigger:{
             trigger:'#navbars',
             start:"center top",
-            end:"top -4000px",
+            end:"center -4000px",
             pin:"#navicon",
-            toggleActions:"restart none none reverse"
+            toggleActions:"restart none none reverse",
+
+        }
+      });
+      let hamburgericon = gsap.timeline({
+        scrollTrigger:{
+          trigger:'#mobilebtn',
+          start:"top top",
+          end:"bottom -500%",
+          pin:"#hamburger",
         }
       });
 
