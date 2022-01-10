@@ -227,7 +227,6 @@ body #home {
   position: relative;
   z-index: 3;
   color: #464646;
-  overflow: hidden;
 }
 
 body #home .homeicon {
