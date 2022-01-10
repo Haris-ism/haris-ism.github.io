@@ -114,7 +114,7 @@ body{
   position:absolute;
   width: 50px;
   height:50px;
-  top:30%;
+  top:15%;
   right:10%;
   border-radius: 50%;
   display: flex;
@@ -293,54 +293,73 @@ li:hover svg{
 li img{
   transform: rotate(-45deg);
 }
+#SkillsDetail ul li:nth-child(5n+1){
+  left:0;
+}
+#SkillsDetail ul li:nth-child(5n+2){
+  left:228px; 
+}
+#SkillsDetail ul li:nth-child(5n+3){
+  left:456px;
+}
+#SkillsDetail ul li:nth-child(5n+4){
+  left:114px;
+}
+#SkillsDetail ul li:nth-child(5n+5){
+  left:342px;
+}
+#skillsbtn{
+  display: flex;
+  justify-content: center;
+}
 #item1{
   top:0;
-  left:0;
 }
 #item2{
-  bottom:0;
-  left:0;
+  top:0;
 }
 #item3{
-  top:30%;
-  left:19%;
+  top:0;
 }
 #item4{
-  top:0;
-  left:38%;
+  top:114px;
 }
 #item5{
-  bottom:0;
-  left:38%;
+  top:114px;
 }
 #item6{
-  top:30%;
-  left:57%;
+  top:228px;
 }
 #item7{
-  top:0;
-  left:76%;
+  top:228px;
 }
 #item8{
-  bottom:0;
-  left:76%;
+  top:228px;
 }
 #item9{
-  top:90%;
-  left:19%;
+  top:342px;
 }
 #item10{
-  top:90%;
-  left:57%;
+  top:342px;
 }
-#item1:hover{
+#SkillsDetail ul li:nth-child(11){
+  top:456px;
+  left:228px;
+}
+#item11:hover{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   z-index: 3;
   transform: scale(1.2) rotate(45deg);
 }
-
+#item1:hover{
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  transform: scale(1.2) rotate(45deg);
+  z-index: 3;
+}
 #item2:hover{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -422,13 +441,13 @@ li img{
 #SkillsDetail{
   position: relative;
 }
-#SkillsDetail a{
+/* #SkillsDetail a{
   position:absolute;
   bottom:10px;
-}
+} */
 #SkillsDetail ul{
   position: relative;
-  margin:0;
+  margin:0 0 250px 0;
   padding:0;
   width:600px;
   height:380px;
@@ -514,16 +533,6 @@ li img{
   3px 3px 5px rgba(0,0,0,0.3);
 }
 
-#certificationbtn{
-
-}
-#ProjectDetail{
-
-}
-/* #ProjectDetail{
-  display:inherit;
-} */
-
 #ProjectDetail ul{
   position: relative;
   margin:0;
@@ -579,13 +588,35 @@ li img{
   width:450px;
 }
 #phone{
-  height:200px;
+  width:242px;
   position:absolute;
   bottom:0;
-  right:0;
+  right:-70px;
   z-index: 3;
 }
-
+#mobile1{
+  width:134.5px;
+  position:absolute;
+  top:30px;
+  left:258px;
+  z-index: 3;
+}
+#device1{
+  position:relative;
+  right:200px;
+}
+#device2{
+  position:relative;
+  right:0px;
+}
+#android1{
+  width:350px;
+  height:336px;
+  position:absolute;
+  top:-28px;
+  right:-50px;
+  z-index: 3;
+}
 #offerbox .tech{
   position: absolute;
   top: 250px;
@@ -618,10 +649,10 @@ li img{
   inset 2px 2px 8px rgba(0,0,0,0.15);
 }
 #mobile{
-  width:80px;
+  width:93px;
   position:absolute;
-  top:143px;
-  left:352px;
+  top:119px;
+  left:353px;
   z-index: 3;
 }
 #projectCard{
@@ -674,7 +705,7 @@ a:active{
   flex-wrap: wrap;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #ProjectDetail .tech div{
   margin: 0 10px 10px 0;
@@ -703,7 +734,10 @@ a:active{
   position: relative;
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+}
+.projectbtn p{
+  margin-right: 20px;
 }
 .projectbtn a{
   display: flex;
@@ -712,9 +746,10 @@ a:active{
   position:relative;
   cursor: pointer;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 10px;
   height:40px;
   width:40px;
+  /* padding:5px; */
   border-radius: 50%;
   background-color: transparent;
   box-shadow:
@@ -836,13 +871,20 @@ a:active{
   inset 2px 2px 4px rgba(0,0,0,0.15),
   inset 2px 2px 8px rgba(0,0,0,0.15);
 }
-#SkillsDetail .aboutbtn{
-  margin: auto auto;
-  margin-top: 50px;
+.aboutbtn.reactjs{
+  /* bottom:-100px;
+  left:100px; */
+  width:270px;
+  margin:0 50px 0 50px;
+}
+.aboutbtn.reactnative{
+  /* bottom:-100px;
+  right:100px; */
+  width:270px;
+  margin:0 50px 0 50px;
 }
 .aboutbtn{
   text-align: center;
-  width:200px;
   padding:10px 25px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -858,6 +900,7 @@ a:active{
   3px 3px 5px rgba(0,0,0,0.3); */
 
 }
+
 .aboutbtn:hover{
   box-shadow:
   inset -2px -2px 2px rgba(255,255,255,0.2),
@@ -925,7 +968,6 @@ a:active{
 section{
   margin:0;
 }
-
 @keyframes animate{
   0%{
     transform:translateY(0) rotate(0deg);
@@ -944,7 +986,6 @@ section{
 
   100%{
     transform:translateX(0vw) translateY(100px);
-    transform: ;
     opacity:0.8;
   }
 }
@@ -953,19 +994,16 @@ section{
 #navbarNav{
   position: relative;
 }
-#navhome svg{
-  /* display:inline; */
-}
 #navbarNav ul{
   position:relative;
   display:flex;
   justify-content: end;
 }
 #navbarNav ul li{
+  position:absolute;
   display:flex;
   justify-content: start;
   align-items: start;
-  position:absolute;
   height:40px;
   width: 40px;
   border-radius: 50px;
@@ -1185,8 +1223,6 @@ section{
   #hamburger svg{
     transform: rotate(0deg);
   }
-  .offcanvas-header{
-  }
   .offcanvas-body a{
     display: flex;
     align-items: center;
@@ -1218,42 +1254,82 @@ section{
   }
 }
 @media (max-width:768px) {
-
+  .aboutbtn.reactjs{
+    margin:0 20px 0 20px;
+  }
+  .aboutbtn.reactnative{
+    margin:0 20px 0 20px;
+  }
+  
   #SkillsDetail ul{
-    margin-bottom: 320px;
+    margin-bottom: 550px;
+    
+  }
+  #SkillsDetail ul li:nth-child(3n){
+    left:228px;
+  }
+  #SkillsDetail ul li:nth-child(3n+1){
+    left:113px;
+  }
+  #SkillsDetail ul li:nth-child(3n-1){
+    left:343px;
   }
   #item1{
-    top:120%;
-    left:38%;
+    top:0;
   }
   #item2{
-    top:90%;
-    left:19%;
+    top:0;
   }
   #item3{
-    top:30%;
-    left:19%;
+    top:113px;
   }
   #item4{
-    top:0;
-    left:38%;
+    top:226px;
   }
-  #item8{
-    top:60%;
-    left:38%;
+  #item5{
+    top:226px;
   }
   #item6{
-    top:30%;
-    left:57%;
+    top:339px;
   }
   #item7{
-    top:90%;
-    left:57%;
+    top:452px;
   }
+  #item8{
+    top:452px;
+  }
+  #item9{
+    top:565px;
+  }
+  #item10{
+    top:678px;
+  }
+  #SkillsDetail ul li:nth-child(11){
+    top:678px;
+  }
+  
 }
 @media (max-width:576px) {
+  .dots{
+    bottom:40%;
+  }
+  .square{
+    bottom:30%;
+  }
+  .aboutbtn.reactjs{
+    margin-bottom: 20px;
+  }
+  #projecttitle{
+    margin-top: 0;
+  }
+  #skillsbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
   #SkillsDetail ul{
-    margin-bottom: 200px;
+    margin-bottom: 350px;
     width:360px;
   }
   #qualification{
@@ -1263,38 +1339,51 @@ section{
     width:120px;
     height:120px;
   }
-
   #SkillsDetail ul li .innerbox{
     width:90px;
     height:90px;
   }
-  #item1{
-    top:96%;
+  #SkillsDetail ul li:nth-child(3n){
     left:120px;
+  }
+  #SkillsDetail ul li:nth-child(3n+1){
+    left:30px;
+  }
+  #SkillsDetail ul li:nth-child(3n-1){
+    left:210px;
+  }
+  #item1{
+    top:0px;
   }
   #item2{
-    top:72%;
-    left:9%;
+    top:0px;
   }
   #item3{
-    top:24%;
-    left:9%;
-  }
+    top:90px;
+  } 
   #item4{
-    top:0;
-    left:120px;
+    top:180px;
+  }
+  #item5{
+    top:180px;
   }
   #item6{
-    top:24%;
-    right:9%;
+    top:270px;
   }
   #item7{
-    top:72%;
-    right:9%;
+    top:360px;
   }
   #item8{
-    top:48%;
-    left:120px;
+    top:360px;
+  }
+  #item9{
+    top:450px;
+  }
+  #item10{
+    top:540px;
+  }
+  #SkillsDetail ul li:nth-child(11){
+    top:540px;
   }
   #tilts{
     opacity:0.7;
@@ -1352,17 +1441,17 @@ section{
     z-index: 5;
   }
   #mobile{
-    width:80px;
+    width:66px;
     position:absolute;
-    top:112px;
-    left:252px;
+    top:107px;
+    left:312px;
     z-index: 3;
   }
   #projectCard{
     position:absolute;
     top:10px;
     width:266px;
-    left:42px;
+    left:92px;
   }
   #projectCard img{
     cursor: pointer;
@@ -1373,19 +1462,14 @@ section{
     overflow: hidden;
 
   }
-  #device{
-    position:relative;
-    width:350px;
-    height:320px;
-  }
   #laptop{
     width:350px;
   }
   #phone{
-    height:200px;
+    width:170px;
     position:absolute;
-    bottom:30px;
-    right:0;
+    bottom:73px;
+    right:20px;
     z-index: 3;
   }
 
