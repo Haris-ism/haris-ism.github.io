@@ -482,6 +482,7 @@ margin:0;
         margin:0;
         color:$primaryColor;
         overflow: hidden;
+        padding-bottom: 20px;
         #offerbox{
             @include OfferBox();
             .offericon{
@@ -541,6 +542,7 @@ margin:0;
         #SkillsContainer{
             display: none;
             justify-content: center;
+            padding-bottom: 20px;
             #SkillsDetail{
                 position: relative;
                 ul{
